@@ -6,7 +6,7 @@ timedatectl set-local-rtc 1
 # making iniatial user dir
 cd 
 touch envSource
-mkdir -p ~/bundle/BackUp ~/bundle/GitHub ~/bundle/.dot/file
+mkdir -p ~/bundle/BackUp ~/bundle/GitHub ~/bundle/pkg ~/bundle/dot/file
 
 # copy for backup
 #cp ~/.bash_logout ~/bundle/.dot/file
@@ -37,16 +37,16 @@ do
     sudo apt install $i
 done
 
-echo "Installing pathogen and slimux"
-mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-    mv pathogen.vim ~/.vim/autoload/
-
-cd ~/.vim/bundle && \
-    git clone https://github.com/epeli/slimux.git
+#echo "Installing pathogen and slimux"
+#mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+#curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+#    mv pathogen.vim ~/.vim/autoload/
+#
+#cd ~/.vim/bundle && \
+#    git clone https://github.com/epeli/slimux.git
 
 # rust-lang
-curl https://sh.rustup.rs -sSf | sh
+#curl https://sh.rustup.rs -sSf | sh
 
 # cran.r-project
-sudo apt-get install r-base
+#sudo apt-get install r-base
