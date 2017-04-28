@@ -5,8 +5,14 @@ timedatectl set-local-rtc 1
 
 # making iniatial user dir
 cd 
-touch envSource
-mkdir -p ~/bundle/BackUp ~/bundle/GitHub ~/bundle/pkg ~/bundle/dot/file
+touch envar
+echo "#my custom bash" >> ~/.bashrc
+echo "echo "Welcome from Kiran Kumar Roy"" >> ~/.bashrc
+echo "echo "Group:::::::::::::::::::SUDO"" >> ~/.bashrc
+echo "source ~/envar" >> ~/.bashrc
+echo "echo "Loading.................Done"" >> ~/.bashrc
+
+#mkdir -p ~/bundle/BackUp ~/bundle/GitHub ~/bundle/pkg ~/bundle/dot/file
 
 # copy for backup
 #cp ~/.bash_logout ~/bundle/.dot/file
@@ -26,7 +32,6 @@ pkgs=(
          'vim'
          'curl'
          'ssh'
-         'evince'
          )
 
 echo "Installing core packages"

@@ -2,9 +2,17 @@
 
 # set time to local time
 # making iniatial user dir
-cd 
-touch envSource
-mkdir -p  ~/bundle/BackUp ~/bundle/GitHub ~/bundle/pkg ~/bundle/dot/file
+
+cd
+touch envar
+echo "#my custom bash" >> ~/.bashrc
+echo "echo "Welcome from Kiran Kumar Roy"" >> ~/.bashrc
+echo "echo "Group::::::::::::::::::::BDT"" >> ~/.bashrc
+echo "source ~/envar" >> ~/.bashrc
+echo "echo "Loading.................Done"" >> ~/.bashrc
+
+
+#mkdir -p  ~/bundle/BackUp ~/bundle/GitHub ~/bundle/pkg ~/bundle/dot/file
 
 # copy for backup
 #echo "Installing pathogen and slimux"
