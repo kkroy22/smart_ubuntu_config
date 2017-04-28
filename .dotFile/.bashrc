@@ -115,8 +115,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-# my custom environment in bash
-echo "Welcome from Kiran Kumar Roy"
-source ~/envSource
-echo "Loading...   done"
+#my custom bash
+echo Welcome from Kiran Kumar Roy
+echo Group:::::::::::::::::::SUDO
+source ~/envar
+echo Loading.................Done
