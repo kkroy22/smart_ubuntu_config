@@ -15,3 +15,5 @@ sudo usermod -g bdt spark
 sudo delgroup analytics
 sudo delgroup hadoop
 sudo delgroup spark
+#add folder
+sudo mkdir -p /opt/compute /opt/hpc /opt/bdt /opt/dbt
