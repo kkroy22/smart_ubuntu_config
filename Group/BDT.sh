@@ -2,7 +2,10 @@
 
 # set time to local time
 # making iniatial user dir
+cd
+mkdir -p ~/bundle/binary
 
+# oh my bash!
 cd
 touch envar
 echo "#my custom bash" >> ~/.bashrc

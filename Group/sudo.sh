@@ -5,6 +5,10 @@ timedatectl set-local-rtc 1
 
 # making iniatial user dir
 cd 
+mkdir -p ~/bundle/GitHub ~/bundle/binary
+
+# oh my bash!
+cd 
 touch envar
 echo "#my custom bash" >> ~/.bashrc
 echo "echo "Welcome from Kiran Kumar Roy"" >> ~/.bashrc
