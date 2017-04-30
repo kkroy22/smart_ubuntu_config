@@ -7,13 +7,16 @@ sudo addgroup dbt
 sudo adduser analytics
 sudo adduser hadoop
 sudo adduser spark
+sudo adduser database
 #change group
 sudo usermod -g compute analytics
 sudo usermod -g bdt hadoop
 sudo usermod -g bdt spark
+sudo usermod -g dbt database
 #del group
 sudo delgroup analytics
 sudo delgroup hadoop
 sudo delgroup spark
+sudo delgroup database
 #add folder
 sudo mkdir -p /opt/compute /opt/hpc /opt/bdt /opt/dbt
