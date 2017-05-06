@@ -33,6 +33,7 @@ pkgs=(
          'chromium-browser'
          'git'
          'tmux'
+         'jupyter-core'
          'vim'
          'curl'
          'ssh'
