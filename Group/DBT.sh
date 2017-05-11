@@ -3,7 +3,7 @@
 # set time to local time
 # making iniatial user dir
 cd
-mkdir -p ~/bundle/binary
+mkdir -p ~/bundle
 
 # oh my bash!
 cd
