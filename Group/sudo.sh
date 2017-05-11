@@ -16,23 +16,12 @@ echo "echo "Group:::::::::::::::::::SUDO"" >> ~/.bashrc
 echo "source ~/envar" >> ~/.bashrc
 echo "echo "Loading.................Done"" >> ~/.bashrc
 
-#mkdir -p ~/bundle/BackUp ~/bundle/GitHub ~/bundle/pkg ~/bundle/dot/file
-
-# copy for backup
-#cp ~/.bash_logout ~/bundle/.dot/file
-#cp ~/.bashrc ~/bundle/.dot/file
-#cp ~/.dmrc ~/bundle/.dot/file
-#cp ~/.ICEauthority ~/bundle/.dot/file
-#cp ~/.profile ~/bundle/.dot/file
-#cp ~/.Xauthority ~/bundle/.dot/file
-#cp ~/.xsession-errors ~/bundle/.dot/file
-
-
 # install required packages
 pkgs=(  
          'chromium-browser'
          'git'
          'tmux'
+         'jupyter-core'
          'vim'
          'curl'
          'ssh'
@@ -46,13 +35,6 @@ do
     sudo apt install $i
 done
 
-#echo "Installing pathogen and slimux"
-#mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-#curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-#    mv pathogen.vim ~/.vim/autoload/
-#
-#cd ~/.vim/bundle && \
-#    git clone https://github.com/epeli/slimux.git
 
 # rust-lang
 #curl https://sh.rustup.rs -sSf | sh
