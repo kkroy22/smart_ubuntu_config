@@ -5,7 +5,7 @@ timedatectl set-local-rtc 1
 
 # making iniatial user dir
 cd 
-mkdir -p ~/bundle/GitHub ~/bundle
+mkdir -p ~/bundle/GitHub ~/bundle/launcher
 
 # oh my bash!
 cd 
