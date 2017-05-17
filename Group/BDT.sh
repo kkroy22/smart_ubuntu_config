@@ -2,7 +2,7 @@
 
 # making iniatial user dir
 cd
-mkdir -p ~/bundle
+mkdir -p ~/bundle/launcher
 
 # oh my bash!
 cd
