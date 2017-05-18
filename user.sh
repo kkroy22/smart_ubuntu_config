@@ -24,3 +24,4 @@ sudo mkdir -p /opt/compute /opt/hpc /opt/bdt /opt/dbit
 #compgen -g
 #compgen -u
 #groups user
+#sudo deluser --remove-home
