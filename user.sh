@@ -19,7 +19,7 @@ sudo delgroup hadoop
 sudo delgroup spark
 sudo delgroup database
 #add folder
-sudo mkdir -p /opt/compute /opt/hpc /opt/bdt /opt/dbit
+sudo mkdir -p /opt/compute /opt/hpc /opt/bdt /opt/dbt
 #
 #compgen -g
 #compgen -u
