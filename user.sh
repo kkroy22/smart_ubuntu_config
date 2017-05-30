@@ -2,24 +2,24 @@
 sudo addgroup compute
 sudo addgroup hpc
 sudo addgroup bdt
-sudo addgroup dbt
+#sudo addgroup dbt
 #add user
 sudo adduser analytics
-sudo adduser hadoop
-sudo adduser spark
-sudo adduser database
+sudo adduser bdt
+sudo adduser hpc
+#sudo adduser database
 #change group
 sudo usermod -g compute analytics
-sudo usermod -g bdt hadoop
-sudo usermod -g bdt spark
-sudo usermod -g dbt database
+sudo usermod -g bdt bdt
+sudo usermod -g hpc hpc
+#sudo usermod -g dbt database
 #del group
 sudo delgroup analytics
-sudo delgroup hadoop
-sudo delgroup spark
-sudo delgroup database
+#sudo delgroup hadoop
+#sudo delgroup spark
+#sudo delgroup database
 #add folder
-sudo mkdir -p /opt/compute /opt/hpc /opt/bdt /opt/dbt
+sudo mkdir -p /opt/compute /opt/hpc /opt/bdt
 #
 #compgen -g
 #compgen -u
