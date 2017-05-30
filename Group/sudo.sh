@@ -23,6 +23,7 @@ pkgs=(
          'tmux'
          'jupyter-core'
          'vim'
+         'r-base'
          'curl'
          'ssh'
          )
