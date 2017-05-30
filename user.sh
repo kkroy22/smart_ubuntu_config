@@ -1,7 +1,7 @@
 #add group
 sudo addgroup compute
-sudo addgroup hpc
-sudo addgroup bdt
+#sudo addgroup hpc
+#sudo addgroup bdt
 #sudo addgroup dbt
 #add user
 sudo adduser analytics
@@ -19,7 +19,7 @@ sudo delgroup analytics
 #sudo delgroup spark
 #sudo delgroup database
 #add folder
-sudo mkdir -p /opt/compute /opt/hpc /opt/bdt
+sudo mkdir -p /opt/compute /opt/hpc /opt/bdt /opt/GitHub
 #
 #compgen -g
 #compgen -u
