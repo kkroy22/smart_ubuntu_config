@@ -12,7 +12,7 @@ cd
 touch envar
 echo "#my custom bash" >> ~/.bashrc
 echo "echo "Welcome from Kiran Kumar Roy"" >> ~/.bashrc
-echo "echo "Group /| SUDO :: User /| bikky"" >> ~/.bashrc
+echo "echo "SUDO:::::::::::::::::::bikky"" >> ~/.bashrc
 echo "source ~/envar" >> ~/.bashrc
 echo "echo "Loading.................Done"" >> ~/.bashrc
 
