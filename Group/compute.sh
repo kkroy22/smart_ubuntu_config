@@ -9,6 +9,6 @@ cd
 touch envar
 echo "#my custom bash" >> ~/.bashrc
 echo "echo "Welcome from Kiran Kumar Roy"" >> ~/.bashrc
-echo "echo "Group::::::::::::::::COMPUTE"" >> ~/.bashrc
+echo "echo "COMPUTE :::::::::: analytics"" >> ~/.bashrc
 echo "source ~/envar" >> ~/.bashrc
 echo "echo "Loading.................Done"" >> ~/.bashrc
