@@ -26,10 +26,12 @@ pkgs=(
          'chromium-browser'
          'git'
          'tmux'
-         'jupyter-core'
          'vim'
          'curl'
          'ssh'
+         'jupyter-core'
+         'jupyter-notebook'
+         'r-base'
          )
 
 echo "Installing core packages"
@@ -43,8 +45,5 @@ done
 
 # rust-lang
 #curl https://sh.rustup.rs -sSf | sh
-
-# cran.r-project
-#sudo apt-get install r-base
 
 echo "Done all task !"
