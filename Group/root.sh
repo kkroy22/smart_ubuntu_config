@@ -32,6 +32,7 @@ pkgs=(
          'ssh'
          'jupyter-core'
          'jupyter-notebook'
+         'python3-pip'
          'r-base'
          )
 
