@@ -4,6 +4,7 @@
 cd ~
 touch envar
 mkdir -p ~/bundle/scripts
+echo "environment created for sodo user"
 
 # oh my bash!
 echo "__________________________________" >> ~/.bashrc
