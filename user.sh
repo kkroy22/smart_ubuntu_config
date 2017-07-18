@@ -31,3 +31,5 @@ echo "Done Group delete"
 #compgen -u
 #groups user
 #sudo deluser --remove-home
+
+echo "Done all Task !"
