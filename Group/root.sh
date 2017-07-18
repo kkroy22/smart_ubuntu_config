@@ -15,6 +15,7 @@ mkdir -p /opt/compute /opt/tech /opt/all /opt/GitHub
 echo "environment created for root user"
 
 # oh my bash!
+echo "#_________________________________" >> ~/.bashrc
 echo "#my custom bash" >> ~/.bashrc
 echo "echo "Welcome from Kiran Kumar Roy"" >> ~/.bashrc
 echo "echo "SUDO: !! : !! !! : !! :root"" >> ~/.bashrc
