@@ -19,7 +19,7 @@ sudo delgroup analytics
 #sudo delgroup spark
 #sudo delgroup database
 #add folder
-sudo mkdir -p /opt/compute /opt/tech /opt/all /opt/GitHub
+
 #
 #compgen -g
 #compgen -u
