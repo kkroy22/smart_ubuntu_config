@@ -7,7 +7,7 @@ mkdir -p ~/bundle/scripts
 echo "environment created for sodo user"
 
 # oh my bash!
-echo "__________________________________" >> ~/.bashrc
+echo "#_________________________________" >> ~/.bashrc
 echo "#my custom bash" >> ~/.bashrc
 echo "echo "Welcome from Kiran Kumar Roy"" >> ~/.bashrc
 echo "echo "SUDO:::::::::::::::::::bikky"" >> ~/.bashrc
