@@ -1,12 +1,12 @@
 #! /bin/bash
 
 # making iniatial user dir
-cd
-mkdir -p ~/bundle/launcher
+cd ~
+touch envar
+mkdir -p ~/bundle/scripts
 
 # oh my bash!
-cd
-touch envar
+echo "__________________________________" >> ~/.bashrc
 echo "#my custom bash" >> ~/.bashrc
 echo "echo "Welcome from Kiran Kumar Roy"" >> ~/.bashrc
 echo "echo "COMPUTE::::::::::::analytics"" >> ~/.bashrc
