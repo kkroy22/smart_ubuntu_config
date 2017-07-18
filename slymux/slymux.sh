@@ -9,6 +9,7 @@ cd ~/.vim/bundle && \
 
 
 #slymux config
+echo "Slymux Congig"
 touch .vimrc
 
 
@@ -21,3 +22,4 @@ echo "nnoremap <C-c><C-c> :SlimuxREPLSendLine<CR>">> ~/.vimrc
 echo "vnoremap <C-c><C-c> :SlimuxREPLSendLine<CR>">> ~/.vimrc
 echo "nnoremap <C-c><C-v> :SlimuxREPLConfigure<CR>">> ~/.vimrc
 
+echo "Done all task !"
