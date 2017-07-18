@@ -2,14 +2,17 @@
 
 # become root
 sudo -i
+echo "I am Root"
 
 # set time to local time
 timedatectl set-local-rtc 1
+echo "Time set to local rtc"
 
 # making iniatial user dir
 cd ~
 touch envar
 mkdir -p /opt/compute /opt/tech /opt/all /opt/GitHub
+echo "environment created for root user"
 
 # oh my bash!
 echo "#my custom bash" >> ~/.bashrc
@@ -43,3 +46,5 @@ done
 
 # cran.r-project
 #sudo apt-get install r-base
+
+echo "Done all task !"
