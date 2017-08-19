@@ -30,8 +30,6 @@ pkgs=(
          'vim'
          'curl'
          'ssh'
-         'python3-pip'
-         'r-base'
          )
 
 echo "Installing core packages"
