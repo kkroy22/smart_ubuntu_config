@@ -33,3 +33,5 @@ echo "Done Group delete"
 #sudo deluser --remove-home
 
 echo "Done all Task !"
+
+#chsh -s /bin/zsh
