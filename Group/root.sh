@@ -30,6 +30,7 @@ pkgs=(
          'vim'
          'curl'
          'ssh'
+         'zsh'
          )
 
 echo "Installing core packages"
