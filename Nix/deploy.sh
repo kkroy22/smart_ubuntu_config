@@ -84,19 +84,16 @@ else
 fi
 
 # oh my bash!
-echo "#_________________________________" >> ~/.bashrc
-echo "#my custom bash" >> ~/.bashrc
+
 echo "echo "Welcome from Kiran Kumar Roy"" >> ~/.bashrc
 echo "echo "SUDO: !! : !!  !! : !! :root"" >> ~/.bashrc
-echo "source '$HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/bash/bashrc'" > ~/.bashrc
+echo "source '$HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/bash/bashrc.sh'" > ~/.bashrc
 echo "echo "Loading.................Done"" >> ~/.bashrc
 echo "echo "........................BASH"" >> ~/.bashrc
 
 # oh my zsh!
-echo "#_________________________________" >> ~/.zshrc
-echo "#my custom bash" >> ~/.bashrc
-echo "echo "Welcome from Kiran Kumar Roy"" >> ~/.zshrc
-echo "echo "SUDO: !! : !!  !! : !! :root"" >> ~/.zshrc
+echo "echo "Welcome from Kiran Kumar Roy"" >> ~/.bashrc
+echo "echo "SUDO: !! : !!  !! : !! :root"" >> ~/.bashrc
 echo "source '$HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/zshrc_manager.sh'" > ~/.zshrc
 echo "echo ".........................ZSH"" >> ~/.zshrc
 
