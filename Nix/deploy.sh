@@ -83,17 +83,6 @@ else
 	echo -e "\nNot backing up old dotfiles."
 fi
 
-
-echo "Installing pathogen and slimux"
-cd ~
-mkdir -p $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/vim/plugin/autoload $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/vim/plugin/bundle && \
-curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-    mv pathogen.vim $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/vim/plugin/autoload/
-
-cd $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/vim/plugin/bundle && \
-    git clone https://github.com/epeli/slimux.git
-
-
 # oh my bash!
 echo "#_________________________________" >> ~/.bashrc
 echo "#my custom bash" >> ~/.bashrc

@@ -28,6 +28,7 @@ pkgs= (
          'vim'
          'virtualenv'
          'zsh'
+	 'curl'
 )
 
 for i in "${pkgs[@]}"
