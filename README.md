@@ -4,10 +4,6 @@ this is first step
 
 # Awesome Dotfiles
 
-Simple, but extensive customization of ZSH, TMUX, and Vim. 
-
-[![VideoWalkthrough](https://img.youtube.com/vi/UgDz_9i2nwc/0.jpg)](https://www.youtube.com/watch?v=UgDz_9i2nwc)
-
 ## Setup Options
 
 There's 3 ways in which you can use this, depending on how much you think you'll be customizing.
