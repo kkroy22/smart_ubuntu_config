@@ -1,0 +1,6 @@
+[submodule "Nix/dotfile/zsh/plugins/oh-my-zsh"]
+	path = Nix/dotfile/zsh/plugins/oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "Nix/dotfile/zsh/plugins/zsh-autosuggestions"]
+	path = Nix/dotfile/zsh/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
