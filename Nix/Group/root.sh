@@ -8,18 +8,12 @@ echo "I am Root"
 timedatectl set-local-rtc 1
 echo "Time set to local rtc"
 
-# making iniatial user dir
-cd ~
-touch envar
-mkdir -p /opt/compute /opt/tech /opt/all /opt/GitHub
-echo "environment created for root user"
-
 # oh my bash!
 echo "#_________________________________" >> ~/.bashrc
 echo "#my custom bash" >> ~/.bashrc
 echo "echo "Welcome from Kiran Kumar Roy"" >> ~/.bashrc
 echo "echo "SUDO: !! : !!  !! : !! :root"" >> ~/.bashrc
-echo "source ~/envar" >> ~/.bashrc
+echo "source ~/bundle/dotfile/bash/bashrc.sh" >> ~/.bashrc
 echo "echo "Loading.................Done"" >> ~/.bashrc
 
 # install required packages
@@ -28,9 +22,8 @@ pkgs=(
          'git'
          'tmux'
          'vim'
-         'curl'
-         'ssh'
-         'zsh'
+         'virtualenv'
+	 'zsh'
          )
 
 echo "Installing core packages"
@@ -40,9 +33,5 @@ for i in "${pkgs[@]}"
 do
     sudo apt install $i
 done
-
-
-# rust-lang
-#curl https://sh.rustup.rs -sSf | sh
 
 echo "Done all task !"
