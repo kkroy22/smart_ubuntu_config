@@ -4,3 +4,6 @@
 [submodule "Nix/dotfile/zsh/plugins/zsh-autosuggestions"]
 	path = Nix/dotfile/zsh/plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions.git
+[submodule "Nix/dotfile/zsh/plugins/zsh-syntax-highlighting"]
+	path = Nix/dotfile/zsh/plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
