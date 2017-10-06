@@ -97,3 +97,7 @@
 	"Swap line
 	"Insert blank below and above
 
+execute pathogen#infect('bundle/{}', '$HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/vim/plugin/bundle/{}')
+syntax on
+filetype plugin indent on
+
