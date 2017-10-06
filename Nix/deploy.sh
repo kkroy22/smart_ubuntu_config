@@ -1,5 +1,8 @@
+#! /bin/bash
+
+
 prompt_install() {
-	echo -n "$1 is not installed. Would you like to install it? (y/n) " >&2
+	echo -n "$1 is not installed. Would you like to install $1 (y/n) " >&2
 	old_stty_cfg=$(stty -g)
 	stty raw -echo
 	answer=$( while ! head -c 1 | grep -i '[ny]' ;do true ;done )
@@ -19,19 +22,12 @@ prompt_install() {
 			sudo pacman -S $1
 
 		else
-			echo "I'm not sure what your package manager is! Please install $1 on your own and run this deploy script again. Tests for package managers are in the deploy script you just ran starting at line 13. Feel free to make a pull request at https://github.com/parth/dotfiles :)" 
+			echo "I'm not sure what your package manager is:)" 
 		fi 
 	fi
 }
 
-check_for_software() {
-	echo "Checking to see if $1 is installed"
-	if ! [ -x "$(command -v $1)" ]; then
-		prompt_install $1
-	else
-		echo "$1 is installed."
-	fi
-}
+
 
 check_default_shell() {
 	if [ -z "${SHELL##*zsh*}" ] ;then
@@ -52,11 +48,12 @@ check_default_shell() {
 
 echo "We're going to do the following:"
 echo "1. Check to make sure you have zsh, vim, and tmux installed"
-echo "2. We'll help you install them if you don't"
+echo "2. If not then install them from root.sh"
 echo "3. We're going to check to see if your default shell is zsh"
 echo "4. We'll try to change it if it's not" 
-
 echo "Let's get started? (y/n)"
+
+
 old_stty_cfg=$(stty -g)
 stty raw -echo
 answer=$( while ! head -c 1 | grep -i '[ny]' ;do true ;done )
@@ -69,12 +66,6 @@ else
 fi
 
 
-check_for_software zsh
-echo 
-check_for_software vim
-echo
-check_for_software tmux
-echo
 
 check_default_shell
 
@@ -92,11 +83,36 @@ else
 	echo -e "\nNot backing up old dotfiles."
 fi
 
-echo "source-file $HOME/bundle/dotfiles/bash/bashrc.sh" > ~/.bashrc
-echo "source '$HOME/bundle/dotfiles/zsh/zshrc_manager.sh'" > ~/.zshrc
-echo "so $HOME/bundle/dotfiles/vim/vimrc.vim" > ~/.vimrc
-echo "source-file $HOME/bundle/dotfiles/tmux/tmux.conf" > ~/.tmux.conf
 
+echo "Installing pathogen and slimux"
+cd ~
+mkdir -p $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/vim/plugin/autoload $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/vim/plugin/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+    mv pathogen.vim $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/vim/plugin/autoload/
+
+cd $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/vim/plugin/bundle && \
+    git clone https://github.com/epeli/slimux.git
+
+
+# oh my bash!
+echo "#_________________________________" >> ~/.bashrc
+echo "#my custom bash" >> ~/.bashrc
+echo "echo "Welcome from Kiran Kumar Roy"" >> ~/.bashrc
+echo "echo "SUDO: !! : !!  !! : !! :root"" >> ~/.bashrc
+echo "source '$HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/bash/bashrc'" > ~/.bashrc
+echo "echo "Loading.................Done"" >> ~/.bashrc
+echo "echo "........................BASH"" >> ~/.bashrc
+
+# oh my zsh!
+echo "#_________________________________" >> ~/.zshrc
+echo "#my custom bash" >> ~/.bashrc
+echo "echo "Welcome from Kiran Kumar Roy"" >> ~/.zshrc
+echo "echo "SUDO: !! : !!  !! : !! :root"" >> ~/.zshrc
+echo "source '$HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/zshrc_manager.sh'" > ~/.zshrc
+echo "echo ".........................ZSH"" >> ~/.zshrc
+
+echo "so $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/vim/vimrc.vim" > ~/.vimrc
+echo "source-file $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/tmux/tmux.conf" > ~/.tmux.conf
 
 echo
 echo "Please log out and log back in for default shell to be initialized."
