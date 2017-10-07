@@ -54,6 +54,7 @@ fi
 
 mv ~/.bashrc ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/bash/bashrc.sh
 
+echo "source ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/bash/bashrc.sh" > ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/bash/bash_manager.sh
 echo "source ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/bash/bash_manager.sh" > ~/.bashrc
 echo "source ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/zshrc_manager.sh" > ~/.zshrc
 echo "so $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/vim/vimrc.vim" > ~/.vimrc
@@ -61,38 +62,3 @@ echo "source-file $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/tmux/tmux.conf" >
 
 echo
 echo "Please log out and log back in for default shell to be initialized."
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
