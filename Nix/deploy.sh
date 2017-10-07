@@ -52,9 +52,10 @@ else
 	echo -e "\nNot backing up old dotfiles."
 fi
 
+mv ~/.bashrc ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/bash/bashrc.sh
 
-echo "source '$HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/bash/bash_manager.sh'" > ~/.bashrc
-echo "source '$HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/zshrc_manager.sh'" > ~/.zshrc
+echo "source ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/bash/bash_manager.sh" > ~/.bashrc
+echo "source ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/zshrc_manager.sh" > ~/.zshrc
 echo "so $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/vim/vimrc.vim" > ~/.vimrc
 echo "source-file $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/tmux/tmux.conf" > ~/.tmux.conf
 
