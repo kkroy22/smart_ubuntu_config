@@ -19,8 +19,8 @@ check_default_shell() {
 
 echo "We're going to do the following:"
 
-echo "3. We're going to check to see if your default shell is zsh"
-echo "4. We'll try to change it if it's not" 
+echo "1. We're going to check to see if your default shell is zsh"
+echo "2. We'll try to change it if it's not" 
 
 echo "Let's get started? (y/n)"
 
