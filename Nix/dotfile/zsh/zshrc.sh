@@ -13,7 +13,7 @@
 # Settings
 	export VISUAL=vim
 
-source $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/plugins/fixls.zsh
+source ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/plugins/fixls.zsh
 
 #Functions
 	# Custom cd
@@ -26,13 +26,13 @@ source $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/plugins/fixls.zsh
 # For vim mappings: 
 	stty -ixon
 
-source $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/plugins/oh-my-zsh/lib/history.zsh
-source $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/plugins/oh-my-zsh/lib/key-bindings.zsh
-source $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/plugins/oh-my-zsh/lib/completion.zsh
-source $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/plugins/vi-mode.plugin.zsh
-source $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/keybindings.sh
+source ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/plugins/oh-my-zsh/lib/history.zsh
+source ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/plugins/oh-my-zsh/lib/key-bindings.zsh
+source ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/plugins/oh-my-zsh/lib/completion.zsh
+source ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/plugins/vi-mode.plugin.zsh
+source ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/keybindings.sh
 
 # Fix for arrow-key searching
 # start typing + [Up-Arrow] - fuzzy find history forward
@@ -48,4 +48,4 @@ if [[ "${terminfo[kcud1]}" != "" ]]; then
 	bindkey "${terminfo[kcud1]}" down-line-or-beginning-search
 fi
 
-source $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/prompt.sh
+source ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/prompt.sh

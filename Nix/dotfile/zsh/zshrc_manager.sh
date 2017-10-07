@@ -8,5 +8,6 @@ else
 fi
 
 echo "Updating configuration"
-(cd $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile && git pull && git submodule update --init --recursive)
-source $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/zshrc.sh
+#(cd ~/bundle/My-Sweet-Little-Sys/Nix/dotfile && time_out 3 git pull && time_out 3 git submodule update --init --recursive)
+(cd ~/bundle/My-Sweet-Little-Sys && git pull && git submodule update --init --recursive)
+source ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/zshrc.sh

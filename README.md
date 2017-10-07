@@ -1,4 +1,4 @@
-hello, 
+hello, Welcome to my first repo
 =============
 this is first step 
 
@@ -6,32 +6,17 @@ this is first step
 
 ## Setup Options
 
-There's 3 ways in which you can use this, depending on how much you think you'll be customizing.
+[Installation](#installation).
+[Fork]() this repo 
 
-One of the key features is that this implementation stays in sync across all your machines. So depending on how much you'd like to customize your configuration, you have a few options:
-
-* Little Customization: Just clone this repo and jump to [Installation](#installation).
-* Mild Customization: [Fork]() this repo, and clone your own fork. Keep an eye on this repo for bugfixes and other improvements that you'd like to incorporate into your fork. Then jump to [Installation](#installation).
-* Most Customization: Building your own dotfiles from scratch! Read through these docs, watch the video above, star this repo, and create your own dotfiles! You can add this repository as a [git module](https://git-scm.com/book/en/v2/Git-Tools-Submodules) and source the parts you like. 
-
-If you're unsure, just read the docs, watch the video, clone this repository, and jump to [Installation](#installation).
+* Most Customization: read [git module](https://git-scm.com/book/en/v2/Git-Tools-Submodules) and source the parts you like. 
 
 ## Installation
 
 Once the repo is cloned, execute the deploy script:
 ```
-./deploy
+bash deploy.sh
 ```
-
-This script guides you through the following:
-
-1. Checks to see if you have zsh, tmux, and vim installed. 
-2. Installs it using your default package manager if you don't have it installed.
-3. Checks to see if your default shell is zsh.
-4. Sets zsh to your default shell.
-5. Backs up your old configuration files.
-
-Pretty convenient for configuring new servers.
 
 # Sumary of Changes
 
