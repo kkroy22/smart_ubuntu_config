@@ -55,8 +55,19 @@ fi
 mv ~/.bashrc ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/bash/bashrc.sh
 
 echo "source ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/bash/bashrc.sh" > ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/bash/bash_manager.sh
+
+echo "echo "Greetings from Kiran Kumar Roy"" > ~/.bashrc
 echo "source ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/bash/bash_manager.sh" > ~/.bashrc
+echo "echo "-----------------Loading Done!"" > ~/.bashrc
+echo "G=groups" > ~/.bashrc
+echo "echo "$G ::: $USER ::: bash"" > ~/.bashrc
+
+echo "echo "Greetings from Kiran Kumar Roy"" > ~/.zshrc
 echo "source ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/zshrc_manager.sh" > ~/.zshrc
+echo "echo "-----------------Loading Done!"" > ~/.zshrc
+echo "G=groups" > ~/.zshrc
+echo "echo "$G ::: $USER :::: zsh"" > ~/.zshrc
+
 echo "so $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/vim/vimrc.vim" > ~/.vimrc
 echo "source-file $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/tmux/tmux.conf" > ~/.tmux.conf
 
