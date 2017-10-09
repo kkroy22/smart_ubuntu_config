@@ -35,6 +35,15 @@ check_for_software() {
 	fi
 }
 
+pkgs= (
+	'chromium-browser'
+        'git'
+	'tmux'
+	'vim'
+	'virtualenv'
+	'zsh'
+	'r-base'
+)
 
 # become root
 sudo -i
@@ -46,15 +55,6 @@ echo "Time set to local rtc"
 
 apt update
 apt upgrade
-
-pkgs= (
-	'chromium-browser'
-        'git'
-	'tmux'
-	'vim'
-	'virtualenv'
-	'zsh'
-)
 
 for i in "${pkgs[@]}"
 do
