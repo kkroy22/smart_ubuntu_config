@@ -118,10 +118,10 @@ main
 
 
 
-echo "so $HOME/bundle/My-Sweet-Little-Sys/nix/dotfile/vim/vimrc.vim" >> ~/.vimrc
+echo "so $HOME/bundle/My-Sweet-Little-Sys/nix/dotfile/vim/vim-man.vim" >> ~/.vimrc
 
 
-echo "source-file $HOME/bundle/My-Sweet-Little-Sys/nix/dotfile/tmux/tmux.conf" >> ~/.tmux.conf
+echo "source-file $HOME/bundle/My-Sweet-Little-Sys/nix/dotfile/tmux/tmux-man.conf" >> ~/.tmux.conf
 
 
 
@@ -130,7 +130,7 @@ echo "" >> ~/.bashrc
 echo "" >> ~/.bashrc
 echo "" >> ~/.bashrc
 echo "echo "Greetings from Kiran Kumar Roy"" >> ~/.bashrc
-echo "source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/bash/bash_manager.sh" >> ~/.bashrc
+echo "source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/bash/bash-man.sh" >> ~/.bashrc
 echo "echo "-----------------Loading Done!"" >> ~/.bashrc
 echo "G=groups" >> ~/.bashrc
 echo "echo "$G ::: $USER ::: bash"" >> ~/.bashrc
@@ -139,7 +139,7 @@ echo "" >> ~/.zshrc
 echo "" >> ~/.zshrc
 echo "" >> ~/.zshrc
 echo "echo "Greetings from Kiran Kumar Roy"" >> ~/.zshrc
-echo "source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/zshrc_manager.sh" > ~/.zshrc
+echo "source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/zsh-man.sh" > ~/.zshrc
 echo "echo "-----------------Loading Done!"" >> ~/.zshrc
 echo "G=groups" >> ~/.zshrc
 echo "echo "$G ::: $USER :::: zsh"" >> ~/.zshrc
