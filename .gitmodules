@@ -1,0 +1,6 @@
+[submodule "nix/dotfile/zsh/plugins/oh-my-zsh"]
+	path = nix/dotfile/zsh/plugins/oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "nix/dotfile/vim/plugins/bundle/vim-slime"]
+	path = nix/dotfile/vim/plugins/bundle/vim-slime
+	url = https://github.com/jpalardy/vim-slime.git
