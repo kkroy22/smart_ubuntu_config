@@ -7,3 +7,10 @@
 [submodule "nix/dotfile/zsh/plugins/oh-my-zsh"]
 	path = nix/dotfile/zsh/plugins/oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "nix/dotfile/vim/plugins/pathogen"]
+	path = nix/dotfile/vim/plugins/pathogen
+	url = https://github.com/tpope/vim-pathogen.git
+[submodule "nix/dotfile/vim/plugins/vim-slime"]
+	path = nix/dotfile/vim/plugins/vim-slime
+	url = https://github.com/jpalardy/vim-slime.git
+

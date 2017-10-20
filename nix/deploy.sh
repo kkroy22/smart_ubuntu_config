@@ -17,12 +17,7 @@ check_default_shell() {
 	fi
 }
 
-echo "We're going to do the following:"
-
-echo "1. We're going to check to see if your default shell is zsh"
-echo "2. We'll try to change it if it's not" 
-
-echo "Let's get started? (y/n)"
+echo "Deploy?"
 
 old_stty_cfg=$(stty -g)
 stty raw -echo
@@ -45,31 +40,27 @@ stty raw -echo
 answer=$( while ! head -c 1 | grep -i '[ny]' ;do true ;done )
 stty $old_stty_cfg
 if echo "$answer" | grep -iq "^y" ;then
-	mv ~/.zshrc ~/.zshrc.old
-	mv ~/.tmux.conf ~/.tmux.conf.old
-	mv ~/.vimrc ~/.vimrc.old
+	mv ~/.zshrc ~/msls/.zshrc.old
+	mv ~/.tmux.conf ~/msls/.tmux.conf.old
+	mv ~/.vimrc ~/msls/.vimrc.old
 else
 	echo -e "\nNot backing up old dotfiles."
 fi
 
-mv ~/.bashrc ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/bash/bashrc.sh
+echo "echo "Greetings from Kiran Kumar Roy"" >> ~/.bashrc
+echo "source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/bash/bash_manager.sh" >> ~/.bashrc
+echo "echo "-----------------Loading Done!"" >> ~/.bashrc
+echo "G=groups" >> ~/.bashrc
+echo "echo "$G ::: $USER ::: bash"" >> ~/.bashrc
 
-echo "source ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/bash/bashrc.sh" > ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/bash/bash_manager.sh
+echo "echo "Greetings from Kiran Kumar Roy"" >> ~/.zshrc
+echo "source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/zshrc_manager.sh" > ~/.zshrc
+echo "echo "-----------------Loading Done!"" >> ~/.zshrc
+echo "G=groups" >> ~/.zshrc
+echo "echo "$G ::: $USER :::: zsh"" >> ~/.zshrc
 
-echo "echo "Greetings from Kiran Kumar Roy"" > ~/.bashrc
-echo "source ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/bash/bash_manager.sh" > ~/.bashrc
-echo "echo "-----------------Loading Done!"" > ~/.bashrc
-echo "G=groups" > ~/.bashrc
-echo "echo "$G ::: $USER ::: bash"" > ~/.bashrc
-
-echo "echo "Greetings from Kiran Kumar Roy"" > ~/.zshrc
-echo "source ~/bundle/My-Sweet-Little-Sys/Nix/dotfile/zsh/zshrc_manager.sh" > ~/.zshrc
-echo "echo "-----------------Loading Done!"" > ~/.zshrc
-echo "G=groups" > ~/.zshrc
-echo "echo "$G ::: $USER :::: zsh"" > ~/.zshrc
-
-echo "so $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/vim/vimrc.vim" > ~/.vimrc
-echo "source-file $HOME/bundle/My-Sweet-Little-Sys/Nix/dotfile/tmux/tmux.conf" > ~/.tmux.conf
+#echo "so $HOME/bundle/My-Sweet-Little-Sys/nix/dotfile/vim/vimrc.vim" >> ~/.vimrc
+#echo "source-file $HOME/bundle/My-Sweet-Little-Sys/nix/dotfile/tmux/tmux.conf" >> ~/.tmux.conf
 
 echo
 echo "Please log out and log back in for default shell to be initialized."
