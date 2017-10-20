@@ -47,12 +47,18 @@ else
 	echo -e "\nNot backing up old dotfiles."
 fi
 
+echo "" >> ~/.bashrc
+echo "" >> ~/.bashrc
+echo "" >> ~/.bashrc
 echo "echo "Greetings from Kiran Kumar Roy"" >> ~/.bashrc
 echo "source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/bash/bash_manager.sh" >> ~/.bashrc
 echo "echo "-----------------Loading Done!"" >> ~/.bashrc
 echo "G=groups" >> ~/.bashrc
 echo "echo "$G ::: $USER ::: bash"" >> ~/.bashrc
 
+echo "" >> ~/.zshrc
+echo "" >> ~/.zshrc
+echo "" >> ~/.zshrc
 echo "echo "Greetings from Kiran Kumar Roy"" >> ~/.zshrc
 echo "source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/zshrc_manager.sh" > ~/.zshrc
 echo "echo "-----------------Loading Done!"" >> ~/.zshrc

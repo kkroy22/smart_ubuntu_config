@@ -1,3 +1,4 @@
+
 # Run tmux if exists
 if command -v tmux>/dev/null; then
 	[ -z $TMUX ] && exec tmux

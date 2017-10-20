@@ -1,10 +1,4 @@
-[submodule "nix/dotfile/zsh/plugins/zsh-syntax-highlighting"]
-	path = nix/dotfile/zsh/plugins/zsh-syntax-highlighting
-	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
-[submodule "nix/dotfile/zsh/plugins/zsh-autosuggestions"]
-	path = nix/dotfile/zsh/plugins/zsh-autosuggestions
-	url = https://github.com/zsh-users/zsh-autosuggestions.git
-[submodule "nix/dotfile/zsh/plugins/oh-my-zsh"]
-	path = nix/dotfile/zsh/plugins/oh-my-zsh
-	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "nix/dotfile/vim/vim-slime"]
+	path = nix/dotfile/vim/vim-slime
+	url = https://github.com/jpalardy/vim-slime.git
 
