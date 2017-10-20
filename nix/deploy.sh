@@ -17,7 +17,7 @@ check_default_shell() {
 	fi
 }
 
-echo "Deploy?"
+echo "Deploy? [y,n]"
 
 old_stty_cfg=$(stty -g)
 stty raw -echo

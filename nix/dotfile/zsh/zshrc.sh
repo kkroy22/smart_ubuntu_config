@@ -30,8 +30,6 @@ source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/plugins/oh-my-zsh/lib/histor
 source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/plugins/oh-my-zsh/lib/key-bindings.zsh
 source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/plugins/oh-my-zsh/lib/completion.zsh
 source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/plugins/vi-mode.plugin.zsh
-source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/keybindings.sh
 
 # Fix for arrow-key searching

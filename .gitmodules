@@ -1,4 +1,0 @@
-[submodule "nix/dotfile/vim/vim-slime"]
-	path = nix/dotfile/vim/vim-slime
-	url = https://github.com/jpalardy/vim-slime.git
-
