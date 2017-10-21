@@ -7,3 +7,6 @@
 [submodule "nix/dotfile/vim/plugins/slimv"]
 	path = nix/dotfile/vim/plugins/slimv
 	url = https://github.com/kovisoft/slimv.git
+[submodule "nix/dotfile/vim/plugins/vim-slime"]
+	path = nix/dotfile/vim/plugins/vim-slime
+	url = https://github.com/jpalardy/vim-slime.git
