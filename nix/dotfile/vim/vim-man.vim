@@ -1,8 +1,6 @@
 source  ~/bundle/My-Sweet-Little-Sys/nix/dotfile/vim/plugins/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect('bundle/{}', '~/bundle/My-Sweet-Little-Sys/nix/dotfile/vim/plugins/{}')
-syntax on
 filetype plugin indent on
-
 
 " General Vim settings
 	syntax on
@@ -45,49 +43,13 @@ filetype plugin indent on
 	set mouse=a
 	set incsearch
 
-" Language Specific
-	" General
-		inoremap <leader>for <esc>Ifor (int i = 0; i < <esc>A; i++) {<enter>}<esc>O<tab>
-		inoremap <leader>if <esc>Iif (<esc>A) {<enter>}<esc>O<tab>
-		
-	" Java
-		inoremap <leader>sys <esc>ISystem.out.println(<esc>A);
-		vnoremap <leader>sys yOSystem.out.println(<esc>pA);
-
-	" C++
-		inoremap <leader>cout <esc>Istd::cout << <esc>A << std::endl;
-		vnoremap <leader>cout yOstd::cout << <esc>pA << std:endl;
-
-	" C
-		inoremap <leader>out <esc>Iprintf(<esc>A);<esc>2hi
-		vnoremap <leader>out yOprintf(, <esc>pA);<esc>h%a
 
 
-" File and Window Management 
-	inoremap <leader>w <Esc>:w<CR>
-	nnoremap <leader>w :w<CR>
+"slimux
+"I have this built into the script, which is not
+"what the original has
+nnoremap <C-b> :SlimuxREPLSendLine<CR>
+vnoremap <C-b> :SlimuxREPLSendLine<CR>
+nnoremap <C-v> :SlimuxREPLConfigure<CR>
 
-	inoremap <leader>q <ESC>:q<CR>
-	nnoremap <leader>q :q<CR>
-
-	inoremap <leader>x <ESC>:x<CR>
-	nnoremap <leader>x :x<CR>
-
-	nnoremap <leader>e :Ex<CR>
-	nnoremap <leader>t :tabnew<CR>:Ex<CR>
-	nnoremap <leader>v :vsplit<CR>:w<CR>:Ex<CR>
-	nnoremap <leader>s :split<CR>:w<CR>:Ex<CR>
-
-" Return to the same line you left off at
-	augroup line_return
-		au!
-		au BufReadPost *
-			\ if line("'\"") > 0 && line("'\"") <= line("$") |
-			\	execute 'normal! g`"zvzz' |
-			\ endif
-	augroup END
-
-" Future stuff
-	"Swap line
-	"Insert blank below and above
 
