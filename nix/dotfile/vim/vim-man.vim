@@ -1,3 +1,9 @@
+source  ~/bundle/My-Sweet-Little-Sys/nix/dotfile/vim/plugins/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect('bundle/{}', '~/bundle/My-Sweet-Little-Sys/nix/dotfile/vim/plugins/{}')
+syntax on
+filetype plugin indent on
+
+
 " General Vim settings
 	syntax on
 	let mapleader=","
