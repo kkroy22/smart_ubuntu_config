@@ -26,6 +26,10 @@ prompt_install() {
 	fi
 }
 
+# https://www.bikky.space
+# https://www.owcsx.science
+# https://www.linkedin.com/in/kkroy22/
+
 check_for_software() {
 	echo "Checking to see if $1 is installed"
 	if ! [ -x "$(command -v $1)" ]; then
@@ -44,6 +48,11 @@ pkgs= (
 	'zsh'
 	'r-base'
 )
+
+
+# https://www.bikky.space
+# https://www.owcsx.science
+# https://www.linkedin.com/in/kkroy22/
 
 # become root
 sudo -i

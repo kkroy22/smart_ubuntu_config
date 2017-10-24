@@ -115,7 +115,9 @@ main() {
 
 main
 
-
+# https://www.bikky.space
+# https://www.owcsx.science
+# https://www.linkedin.com/in/kkroy22/
 
 
 echo "so $HOME/bundle/My-Sweet-Little-Sys/nix/dotfile/vim/vim-man.vim" >> ~/.vimrc
@@ -124,7 +126,9 @@ echo "so $HOME/bundle/My-Sweet-Little-Sys/nix/dotfile/vim/vim-man.vim" >> ~/.vim
 echo "source-file $HOME/bundle/My-Sweet-Little-Sys/nix/dotfile/tmux/tmux-man.conf" >> ~/.tmux.conf
 
 
-
+# https://www.bikky.space
+# https://www.owcsx.science
+# https://www.linkedin.com/in/kkroy22/
 
 echo "" >> ~/.bashrc
 echo "" >> ~/.bashrc

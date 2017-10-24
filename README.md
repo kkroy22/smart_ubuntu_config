@@ -4,6 +4,10 @@ this is first step
 
 # Awesome Dotfiles
 
+https://www.bikky.space
+https://www.owcsx.science
+https://www.linkedin.com/in/kkroy22/
+
 ## Setup Options
 
 [Installation](#installation).

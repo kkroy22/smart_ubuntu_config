@@ -9,9 +9,15 @@
 
 export ZSH=/home/test1/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/plugins/oh-my-zsh
 
+# https://www.bikky.space
+# https://www.owcsx.science
+# https://www.linkedin.com/in/kkroy22/
 
 ZSH_THEME="robbyrussell"
 
+# https://www.bikky.space
+# https://www.owcsx.science
+# https://www.linkedin.com/in/kkroy22/
 
 plugins=(git)
 

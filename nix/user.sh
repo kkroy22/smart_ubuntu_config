@@ -1,5 +1,9 @@
 #! /bin/bash
 
+# https://www.bikky.space
+# https://www.owcsx.science
+# https://www.linkedin.com/in/kkroy22/
+
 echo 'Creating Group compute'
 echo 'Creating Group test'
 addgroup compute

@@ -1,3 +1,7 @@
+# https://www.bikky.space
+# https://www.owcsx.science
+# https://www.linkedin.com/in/kkroy22/
+
 # SDK
 
 JAVA=/opt/sdk/jdk/jdk-9.0.1
