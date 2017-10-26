@@ -17,6 +17,7 @@ echo 'done.........'
 
 
 #sudo usermod -g compute analytics
+#sudo usermod -a -G groupName userName
 #sudo delgroup analytics
 #compgen -g
 #compgen -u
