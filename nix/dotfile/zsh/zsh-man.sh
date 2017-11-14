@@ -7,7 +7,7 @@
 #fi
 
 
-export ZSH=/home/test1/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/plugins/oh-my-zsh
+export ZSH=~/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/plugins/oh-my-zsh
 
 # https://www.bikky.space
 # https://www.owcsx.science
@@ -21,10 +21,11 @@ ZSH_THEME="robbyrussell"
 
 plugins=(git)
 
-source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/plugins/oh-my-zsh/oh-my-zsh.sh
+source $ZSH/oh-my-zsh.sh
 
 echo "Updating configuration"
 #(cd ~/bundle/My-Sweet-Little-Sys && git pull && git submodule update --init --recursive)
+#pip freeze — local | grep -v ‘^\-e’ | cut -d = -f 1 | xargs -n1 pip install -U
 source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/env.sh
 
 
