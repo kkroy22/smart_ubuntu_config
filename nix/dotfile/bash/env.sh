@@ -2,17 +2,19 @@
 # https://www.owcsx.science
 # https://www.linkedin.com/in/kkroy22/
 
-# SDK
+# IDE
 
-JAVA=/opt/sdk/jdk/jdk-9.0.1
-SCALA=/opt/sdk/scala
+# SDK
+ANDROID=/opt/sdk/android
+JAVA_HOME=/opt/sdk/jdk
 NODE=/opt/sdk/node
 RUST=/opt/sdk/rust
+SCALA=/opt/sdk/scala
 
-# IDE
-ATOM=/opt/ide/atom/atom-1.21.1-amd64
+# TECH
+
 
 # SCRIPTS
 SCRIPT=/home/analytics/bundle/script
 
-PATH=$PATH:$JAVA/bin:$SCALA/bin:$NODE/bin:$RUST/rustc/bin:$RUST/cargo/bin:$SCRIPT
+PATH=$PATH:$JAVA_HOME/bin:$SCALA/bin:$NODE/bin:$RUST/rustc/bin:$RUST/cargo/bin:$ANDROID/tools/bin:$SCRIPT

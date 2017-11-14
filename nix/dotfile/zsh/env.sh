@@ -6,7 +6,7 @@
 
 # SDK
 ANDROID=/opt/sdk/android
-JAVA=/opt/sdk/jdk
+JAVA_HOME=/opt/sdk/jdk
 NODE=/opt/sdk/node
 RUST=/opt/sdk/rust
 SCALA=/opt/sdk/scala
@@ -17,4 +17,4 @@ SCALA=/opt/sdk/scala
 # SCRIPTS
 SCRIPT=/home/analytics/bundle/script
 
-PATH=$PATH:$JAVA/bin:$SCALA/bin:$NODE/bin:$RUST/rustc/bin:$RUST/cargo/bin:$ANDROID/tools/bin:$SCRIPT
+PATH=$PATH:$JAVA_HOME/bin:$SCALA/bin:$NODE/bin:$RUST/rustc/bin:$RUST/cargo/bin:$ANDROID/tools/bin:$SCRIPT
