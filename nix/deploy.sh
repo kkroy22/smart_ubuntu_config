@@ -134,29 +134,29 @@ echo "source-file $HOME/bundle/My-Sweet-Little-Sys/nix/dotfile/tmux/tmux-man.con
 echo "" >> ~/.bashrc
 echo "" >> ~/.bashrc
 echo "" >> ~/.bashrc
-echo "____________________________________" >> ~/.bashrc
-echo "____________________________________" >> ~/.bashrc
+echo "echo ____________________________________" >> ~/.bashrc
+echo "echo ____________________________________" >> ~/.bashrc
 echo "echo Greetings from Kiran Kumar Roy" >> ~/.bashrc
 echo "source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/bash/bash-man.sh" >> ~/.bashrc
 echo "echo ------------------Loading Done!" >> ~/.bashrc
 echo "G=$(groups)" >> ~/.bashrc
 echo "U=$(users)" >> ~/.bashrc
 echo "echo  $G ::: $U :::: bash" >> ~/.bashrc
-echo "____________________________________" >> ~/.bashrc
-echo "____________________________________" >> ~/.bashrc
+echo "echo ____________________________________" >> ~/.bashrc
+echo "echo ____________________________________" >> ~/.bashrc
 
 
 echo "" >> ~/.zshrc
 echo "" >> ~/.zshrc
 echo "" >> ~/.zshrc
-echo "____________________________________" >> ~/.zshrc
-echo "____________________________________" >> ~/.zshrc
+echo "echo ____________________________________" >> ~/.zshrc
+echo "echo ____________________________________" >> ~/.zshrc
 echo "echo Greetings from Kiran Kumar Roy" >> ~/.zshrc
 echo "source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/zsh-man.sh" >> ~/.zshrc
 echo "echo -----------------Loading Done!" >> ~/.zshrc
 echo "G=$(groups)" >> ~/.zshrc
 echo "U=$(users)" >> ~/.zshrc
 echo "echo  $G ::: $U :::: zsh" >> ~/.zshrc
-echo "____________________________________" >> ~/.zshrc
-echo "____________________________________" >> ~/.zshrc
+echo "echo ____________________________________" >> ~/.zshrc
+echo "echo ____________________________________" >> ~/.zshrc
 
