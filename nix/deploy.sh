@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-=======
+
 # https://www.bikky.space
 # https://www.owcsx.science
->>>>>>> ee181791d584c4704ec1f9a8cbe8164c64dd8517
 # https://www.linkedin.com/in/kkroy22/
 
 
