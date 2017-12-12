@@ -30,6 +30,7 @@ echo "echo ____________________________________" >> ~/.bashrc
 echo "echo ____________________________________" >> ~/.bashrc
 
 
+touch ~/.zshrc
 echo "" >> ~/.zshrc
 echo "" >> ~/.zshrc
 echo "" >> ~/.zshrc
