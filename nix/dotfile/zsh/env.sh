@@ -13,8 +13,11 @@ SCALA=/opt/sdk/scala
 
 # TECH
 
+# devop
+DOCKER=/opt/devop/docker
+
 
 # SCRIPTS
 SCRIPT=/home/analytics/bundle/script
 
-PATH=$PATH:$JAVA_HOME/bin:$SCALA/bin:$NODE/bin:$RUST/rustc/bin:$RUST/cargo/bin:$ANDROID/tools/bin:$SCRIPT
+PATH=$PATH:$JAVA_HOME/bin:$SCALA/bin:$NODE/bin:$RUST/rustc/bin:$RUST/cargo/bin:$ANDROID/tools/bin:$SCRIPT:$DOCKER
