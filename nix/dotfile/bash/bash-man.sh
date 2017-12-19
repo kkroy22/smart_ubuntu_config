@@ -12,4 +12,4 @@
 
 echo "Updating configuration"
 (cd ~/bundle/My-Sweet-Little-Sys && git pull && git submodule update --init --recursive)
-source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/bash/env.sh
+source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/env.sh

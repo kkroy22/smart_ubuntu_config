@@ -4,9 +4,10 @@
 # https://www.linkedin.com/in/kkroy22/
 
 
+touch ~/.vimrc
 echo "so $HOME/bundle/My-Sweet-Little-Sys/nix/dotfile/vim/vim-man.vim" >> ~/.vimrc
 
-
+touch ~/.tmux.conf
 echo "source-file $HOME/bundle/My-Sweet-Little-Sys/nix/dotfile/tmux/tmux-man.conf" >> ~/.tmux.conf
 
 
@@ -25,7 +26,8 @@ echo "source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/bash/bash-man.sh" >> ~/.ba
 echo "echo ------------------Loading Done!" >> ~/.bashrc
 echo "G=$(groups)" >> ~/.bashrc
 echo "U=$(users)" >> ~/.bashrc
-echo "echo  $G ::: $U :::: bash" >> ~/.bashrc
+echo "S=$0" >> ~/.bashrc
+echo "echo  $G ::: $U :::: $S" >> ~/.bashrc
 echo "echo ____________________________________" >> ~/.bashrc
 echo "echo ____________________________________" >> ~/.bashrc
 
@@ -41,7 +43,8 @@ echo "source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/zsh-man.sh" >> ~/.zshr
 echo "echo -----------------Loading Done!" >> ~/.zshrc
 echo "G=$(groups)" >> ~/.zshrc
 echo "U=$(users)" >> ~/.zshrc
-echo "echo  $G ::: $U :::: zsh" >> ~/.zshrc
+echo "S=$0" >> ~/.zshrc
+echo "echo  $G ::: $U :::: $S" >> ~/.zshrc
 echo "echo ____________________________________" >> ~/.zshrc
 echo "echo ____________________________________" >> ~/.zshrc
 

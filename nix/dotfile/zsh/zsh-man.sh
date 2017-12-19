@@ -26,6 +26,6 @@ source $ZSH/oh-my-zsh.sh
 echo "Updating configuration"
 (cd ~/bundle/My-Sweet-Little-Sys && git pull && git submodule update --init --recursive)
 #pip freeze — local | grep -v ‘^\-e’ | cut -d = -f 1 | xargs -n1 pip install -U
-source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/env.sh
+source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/env.sh
 
 

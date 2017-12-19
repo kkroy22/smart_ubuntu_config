@@ -44,9 +44,8 @@ pkgs= (
         'git'
 	'tmux'
 	'vim'
-	'virtualenv'
+	'python-virtualenv'
 	'zsh'
-	'r-base'
 )
 
 
