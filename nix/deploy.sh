@@ -4,6 +4,9 @@
 # https://www.linkedin.com/in/kkroy22/
 #mkdir ~/A ~/bundle
 
+# copy git config
+cp $HOME/bundle/My-Sweet-Little-Sys/nix/dotfile/git/.gitconfig $HOME/
+
 touch ~/.vimrc
 echo "so $HOME/bundle/My-Sweet-Little-Sys/nix/dotfile/vim/vim-man.vim" >> ~/.vimrc
 
