@@ -26,7 +26,7 @@ echo "source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/bash/bash-man.sh" >> ~/.ba
 echo "echo ------------------Loading Done!" >> ~/.bashrc
 echo "G=$(groups)" >> ~/.bashrc
 echo "U=$(users)" >> ~/.bashrc
-echo "S=$0" >> ~/.bashrc
+echo "S=$SHELL" >> ~/.bashrc
 echo "echo  $G ::: $U :::: $S" >> ~/.bashrc
 echo "echo ____________________________________" >> ~/.bashrc
 echo "echo ____________________________________" >> ~/.bashrc
@@ -43,7 +43,7 @@ echo "source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/zsh-man.sh" >> ~/.zshr
 echo "echo -----------------Loading Done!" >> ~/.zshrc
 echo "G=$(groups)" >> ~/.zshrc
 echo "U=$(users)" >> ~/.zshrc
-echo "S=$0" >> ~/.zshrc
+echo "S=$SHELL" >> ~/.zshrc
 echo "echo  $G ::: $U :::: $S" >> ~/.zshrc
 echo "echo ____________________________________" >> ~/.zshrc
 echo "echo ____________________________________" >> ~/.zshrc
