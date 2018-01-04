@@ -1,10 +1,10 @@
 #time_out () { perl -e 'alarm shift; exec @ARGV' "$@"; }
 
-#if command -v tmux>/dev/null; then
-#	[ -z $TMUX ] && exec tmux
-#else 
-#	echo "tmux not installed. Run deploy to configure dependencies"
-#fi
+if command -v tmux>/dev/null; then
+	[ -z $TMUX ] && exec tmux
+else 
+	echo "tmux not installed. Run deploy to configure dependencies"
+fi
 
 
 export ZSH=~/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/plugins/oh-my-zsh

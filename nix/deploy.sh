@@ -2,7 +2,7 @@
 # https://www.bikky.space
 # https://www.owcsx.science
 # https://www.linkedin.com/in/kkroy22/
-
+#mkdir ~/A ~/bundle
 
 touch ~/.vimrc
 echo "so $HOME/bundle/My-Sweet-Little-Sys/nix/dotfile/vim/vim-man.vim" >> ~/.vimrc
