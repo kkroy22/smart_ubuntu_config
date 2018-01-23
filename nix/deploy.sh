@@ -2,7 +2,7 @@
 # https://www.bikky.space
 # https://www.owcsx.science
 # https://www.linkedin.com/in/kkroy22/
-#mkdir ~/A ~/bundle
+mkdir ~/A ~/bundle
 
 # copy git config
 cp $HOME/bundle/My-Sweet-Little-Sys/nix/dotfile/git/.gitconfig $HOME/
@@ -50,4 +50,3 @@ echo "S=\$SHELL" >> ~/.zshrc
 echo "echo  \$G ::: \$U :::: \$S" >> ~/.zshrc
 echo "echo ____________________________________" >> ~/.zshrc
 echo "echo ____________________________________" >> ~/.zshrc
-
