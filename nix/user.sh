@@ -15,7 +15,6 @@ adduser --ingroup test test1
 
 echo 'done.........'
 
-
 #sudo usermod -g compute analytics
 #sudo usermod -a -G groupName userName
 #sudo delgroup analytics
@@ -23,8 +22,6 @@ echo 'done.........'
 #compgen -u
 #groups user
 #sudo deluser --remove-home
-#chsh -s /bin/zsh
+chsh -s /bin/zsh analytics
+
 echo "Done all Task !"
-
-
-                   
