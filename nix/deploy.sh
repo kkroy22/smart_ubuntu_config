@@ -27,10 +27,10 @@ echo "echo ____________________________________" >> ~/.bashrc
 echo "echo Greetings from Kiran Kumar Roy" >> ~/.bashrc
 echo "source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/bash/bash-man.sh" >> ~/.bashrc
 echo "echo ------------------Loading Done!" >> ~/.bashrc
-echo "G=$(groups)" >> ~/.bashrc
-echo "U=$(users)" >> ~/.bashrc
-echo "S=$SHELL" >> ~/.bashrc
-echo "echo  $G ::: $U :::: $S" >> ~/.bashrc
+echo "G=\$(groups)" >> ~/.bashrc
+echo "U=\$(users)" >> ~/.bashrc
+echo "S=\$SHELL" >> ~/.bashrc
+echo "echo  \$G ::: \$U :::: \$S" >> ~/.bashrc
 echo "echo ____________________________________" >> ~/.bashrc
 echo "echo ____________________________________" >> ~/.bashrc
 
@@ -44,10 +44,10 @@ echo "echo ____________________________________" >> ~/.zshrc
 echo "echo Greetings from Kiran Kumar Roy" >> ~/.zshrc
 echo "source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/zsh/zsh-man.sh" >> ~/.zshrc
 echo "echo -----------------Loading Done!" >> ~/.zshrc
-echo "G=$(groups)" >> ~/.zshrc
-echo "U=$(users)" >> ~/.zshrc
-echo "S=$SHELL" >> ~/.zshrc
-echo "echo  $G ::: $U :::: $S" >> ~/.zshrc
+echo "G=\$(groups)" >> ~/.zshrc
+echo "U=\$(users)" >> ~/.zshrc
+echo "S=\$SHELL" >> ~/.zshrc
+echo "echo  \$G ::: \$U :::: \$S" >> ~/.zshrc
 echo "echo ____________________________________" >> ~/.zshrc
 echo "echo ____________________________________" >> ~/.zshrc
 
