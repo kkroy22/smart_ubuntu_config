@@ -1,13 +1,13 @@
 #! /bin/bash
 
 pkgs= (
-	'chromium-browser'
-        'git'
-	'tmux'
-	'vim'
-	'python3-virtualenv'
+	'git'
 	'zsh'
-)
+	'vim'
+	'tmux'	
+	'python3-virtualenv'
+	'chromium-browser'
+	)
 
 # https://www.bikky.space
 # https://www.owcsx.science
