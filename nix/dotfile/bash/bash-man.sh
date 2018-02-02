@@ -11,5 +11,5 @@
 # https://www.linkedin.com/in/kkroy22/
 
 echo "Updating configuration"
-(cd ~/bundle/My-Sweet-Little-Sys && git pull && git submodule update --init --recursive)
-source ~/bundle/My-Sweet-Little-Sys/nix/dotfile/env.sh
+(cd ~/bundle/git/My-Sweet-Little-Sys && git pull && git submodule update --init --recursive)
+source ~/bundle/git/My-Sweet-Little-Sys/nix/dotfile/env.sh

@@ -1,5 +1,5 @@
-source  ~/bundle/My-Sweet-Little-Sys/nix/dotfile/vim/plugins/vim-pathogen/autoload/pathogen.vim
-execute pathogen#infect('bundle/{}', '~/bundle/My-Sweet-Little-Sys/nix/dotfile/vim/plugins/{}')
+source  ~/bundle/git/My-Sweet-Little-Sys/nix/dotfile/vim/plugins/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect('bundle/{}', '~/bundle/git/My-Sweet-Little-Sys/nix/dotfile/vim/plugins/{}')
 filetype plugin indent on
 
 " General Vim settings
