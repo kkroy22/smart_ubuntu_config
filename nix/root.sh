@@ -5,7 +5,7 @@ pkgs= (
 	'zsh'
 	'vim'
 	'tmux'	
-	'python3-virtualenv'
+	'virtualenv'
 	'chromium-browser'
 	)
 
@@ -26,7 +26,7 @@ apt upgrade
 
 for i in "${pkgs[@]}"
 do
-    check_for_software $i
+    apt install $i
 done
 echo 
 
