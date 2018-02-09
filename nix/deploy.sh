@@ -2,7 +2,7 @@
 # https://www.bikky.space
 # https://www.owcsx.science
 # https://www.linkedin.com/in/kkroy22/
-mkdir -p ~/A ~/bundle/git ~/bundle/box ~/bundle/script 
+mkdir -p ~/A ~/bundle/git ~/bundle/box ~/bundle/script ~/bundle/git
 
 # copy git config
 cp $HOME/bundle/git/My-Sweet-Little-Sys/nix/dotfile/git/.gitconfig $HOME/
