@@ -2,19 +2,20 @@
 # https://www.owcsx.science
 # https://www.linkedin.com/in/kkroy22/
 
-# IDE
-CODE=/opt/ide/vscode
+JAVA_HOME=/home/analytics/bundle/AppData/Local/jdk
 
-# SDK
-#ANDROID=/opt/sdk/android
-#GO=
-JAVA_HOME=/opt/sdk/jdk
-NODE=/opt/sdk/node
-#R=
-RUST=/opt/sdk/rust
-SCALA=/opt/sdk/scala
+GO=/home/analytics/bundle/AppData/Local/go/bin
+JULIA=/home/analytics/bundle/AppData/Local/julia/bin
+NODE=/home/analytics/bundle/AppData/Local/node/bin
+ANACONDA=/home/analytics/bundle/AppData/Local/Anaconda/bin
 
+ATOM=/home/analytics/bundle/AppData/Local/atom
+
+#RUST
 # SCRIPTS
 SCRIPT=/home/analytics/bundle/script
 
-PATH=$PATH:$JAVA_HOME/bin:$SCALA/bin:$NODE/bin:$RUST/rustc/bin:$RUST/cargo/bin:$CODE/bin:$SCRIPT
+IDEA=/home/analytics/bundle/AppData/Local/idea-IC/bin
+CHARM=/home/analytics/bundle/AppData/Local/pycharm/bin
+
+PATH=$PATH:$SCRIPT:$JAVA_HOME/bin:$GO:$JULIA:$NODE:$ANACONDA:$ATOM:$IDEA:$CHARM
